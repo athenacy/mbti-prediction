@@ -1,0 +1,4 @@
+# stat-254-project
+Code for the final project of STAT 254: Machine Learning at UC Berkeley.
+
+Using data from the Personality Cafe forum, dedicated to discussion of the Myers-Briggs Type Indicator (MBTI), we classify users into one of four groups based on the primary or auxiliary extraverted function of their MBTI type. We extract features from the data using the natural language processing tool UDPipe and build our classifiers using the number of occurrences of the most frequently used words for each type in each user's 50 most recent forum posts as features. Our multinomial logistic regression model yields a prediction accuracy of 0.524, our penalized multinomial logistic regression model an accuracy of 0.522, our random forests model an accuracy of 0.511, and our random forests model sans the least significant features determined by the penalized model an accuracy of 0.512.
